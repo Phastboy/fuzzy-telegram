@@ -31,3 +31,17 @@ cargo build
 - `format` write formatted text to string.
 - `print!`: same as `format` but text is printed to the console(`io::stdout`).
 - `println!`: same as `print!` but a new line is added.
+
+## Variables
+The let keyword is used to declare a variable.
+Variables are immutable by default in rust.
+For example, you can't change the value of `pi` in:
+```
+let pi=3.141592;
+```
+
+ To make it mutable, you have to specify `mut` as in:
+```
+let mut pi=3.141592;
+```
+
