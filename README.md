@@ -24,3 +24,10 @@ rustc <fileName> -o <executableName>
 ```
 cargo build
 ```
+
+# Focus
+## Macros
+### Formatted print
+- `format` write formatted text to string.
+- `print!`: same as `format` but text is printed to the console(`io::stdout`).
+- `println!`: same as `print!` but a new line is added.
