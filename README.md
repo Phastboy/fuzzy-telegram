@@ -15,6 +15,11 @@ cargo add <dependency-name>
 cargo run
 ```
 
+## Generating executable
+```
+rustc <fileName> -o <executableName>
+```
+
 ## Installing dependencies
 ```
 cargo build
