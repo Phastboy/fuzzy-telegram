@@ -45,3 +45,36 @@ let pi=3.141592;
 let mut pi=3.141592;
 ```
 
+## Data Types
+``` mermaid
+graph TD;
+    DT --> s["`scalar
+        ____________________________
+        integers
+        floating-point numbers
+        booleans
+        characters`"]
+    DT --> c["`compound
+        ____________________________
+        arrays
+        tuples`"]
+```
+
+### Integer
+#### Types
+
+| Length   | Signed | Unsigned |
+|----------|--------|----------|
+| 8-bit    | i8     | u8       |
+| 16-bit   | i16    | u16      |
+| 32-bit   | i32    | u32      |
+| 64-bit   | i64    | u64      |
+| 128-bit  | i128   | u128     |
+| arch     | isize  | usize    |
+
+#### Literals
+- Decimal
+- Hex
+- Octal
+- Binary
+- Byte (`u8` only)
