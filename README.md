@@ -45,3 +45,14 @@ let pi=3.141592;
 let mut pi=3.141592;
 ```
 
+## Data Types
+``` mermaid
+graph TD;
+    DT --> scalar["`scalar
+        __________________________
+        integers
+        floating-point numbers
+        booleans
+        characters`"]
+    DT --> compound
+```
