@@ -48,11 +48,14 @@ let mut pi=3.141592;
 ## Data Types
 ``` mermaid
 graph TD;
-    DT --> scalar["`scalar
-        __________________________
+    DT --> s["`scalar
+        ____________________________
         integers
         floating-point numbers
         booleans
         characters`"]
-    DT --> compound
+    DT --> c["`compound
+        ____________________________
+        arrays
+        tuples`"]
 ```
